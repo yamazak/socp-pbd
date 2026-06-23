@@ -14,6 +14,8 @@ SOCP-PBD addresses this issue by formulating the post-prediction constraint enfo
 * **Physics Extensions:** Supports Isometric Bending Model (IBM), XPBD-based self-collision handling, and approximate friction.
 * **Readable Implementation:** Built purely in Python using `cvxpy` for easy understanding, testing, and algorithmic extension.
 
+<img src="images/snapshots_5methods_30x30.png" width="500">
+
 ## Requirements
 The core optimization relies on [CVXPY](https://www.cvxpy.org/) and the [Clarabel](https://clarabel.org/stable/) interior-point solver.
 
